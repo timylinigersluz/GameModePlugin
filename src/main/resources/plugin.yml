@@ -1,0 +1,9 @@
+name: GameModePlugin
+version: '${project.version}'
+main: ch.ksrminecraft.gamemodeplugin.GameModePlugin
+api-version: '1.20'
+commands:
+  gmode:
+    description: Change your gamemode
+    usage: /<command> <gamemode>
+    aliases: [gm]
